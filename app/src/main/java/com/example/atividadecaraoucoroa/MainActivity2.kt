@@ -39,9 +39,9 @@ class MainActivity2 : AppCompatActivity() {
         }
 
         if (jogadaUsuario.toString() == (faceMaquina)){
-            situacao.text = "Voce ganhou"
+            situacao.text = "Você GANHOU!"
         }else{
-            situacao.text = "Voce perdeu"
+            situacao.text = "Você perdeu."
         }
 
         //selecionar botao de jogar novamente
